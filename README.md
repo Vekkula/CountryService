@@ -1,8 +1,6 @@
 # CountryService
 REST-api for country information
 
-provides 
-
 GET /countries/
 response:
 
@@ -41,5 +39,5 @@ You can also use Maven to run the project
 mvn spring-boot:run
 ```
 
-
+REST-api should be working at localhost:8080/countries/ and localhost:8080/countries/{name}
 
